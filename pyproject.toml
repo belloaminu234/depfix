@@ -1,0 +1,16 @@
+[project]
+name = "depfix"
+version = "0.1.0"
+description = "Reads a Dependabot security alert, checks the package registry, and safely updates requirements.txt. Standard library only."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+depfix = "depfix.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
