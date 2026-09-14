@@ -1,6 +1,6 @@
 # depfix
 
-A small CLI that automates the "read a Dependabot alert, check the package's release history, and update requirements.txt" workflow — built entirely on the Python standard library.
+A small CLI that automates the "read a Dependabot alert, check the package's release history, and update requirements.txt" workflow built entirely on the Python standard library.
 
 ## What it does
 
